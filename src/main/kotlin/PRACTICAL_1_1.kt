@@ -1,41 +1,21 @@
 fun main(){
-
-    print("Enter an integer : ")
-    val myNumber = readLine()!!
-    println("Integer Value : $myNumber")
-
-    print("Enter a Float Value : ")
-    val myFloat = readLine()
-    println("Float Value : $myFloat")
-
-    print("Enter Character : ")
-    val myLetter = readLine()
-    println("Character value : $myLetter")
-
-    print("Enter String value : ")
-    val myText = readLine()
-    println("String value : $myFloat")
-
-    print("Enter Boolean value : ")
-    val myBoolean = readLine()
-    println("Boolean value : $myBoolean")
-
-    print("Enter Double value : ")
-    val myDouble = readLine()
-    println("double value : $myDouble")
-
-    print("Enter Long value : ")
-    val myLong = readLine()
-    println("Long value : $myLong")
-
-    print("Enter Short value : ")
-    val myShort = readLine()
-    println("Short value : $myShort")
-
-    print("Enter Byte value : ")
-    val myByte = readLine()
-    println("Byte value : $myByte")
-
-
-
+    var a:Int = 10231
+    var b:Double = 20.4
+    var c:Float = 1.123456F
+    var d:Long = 100000000000000
+    var e:Short = 320
+    var f:Byte = 127
+    var g:Char = 'V'
+    var h:Boolean = true
+    var i:String = "Yax Patel"
+    println("---------20012011138_Yax Patel------- \n")
+    println("Integer value:$a")
+    println("Double value:$b")
+    println("Float value:$c")
+    println("Long value:$d")
+    println("Short value:$e")
+    println("Byte value:$f")
+    println("Char value:$g")
+    println("Boolean value:$h")
+    println("String value:$i")
 }

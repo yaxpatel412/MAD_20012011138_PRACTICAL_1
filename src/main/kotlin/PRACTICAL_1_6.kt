@@ -1,35 +1,37 @@
-import java.util.*
+fun main() {
+    println("------20012011138_Yax Patel---------")
+    print("Enter num1:")
+    val input1 = readLine()!!
+    val a :Float = input1.toFloat()
+    print("Enter num2:")
+    val input2 = readLine()!!
+    val b :Float = input2.toFloat()
+    println("---------------------")
+    println("$a + $b = "+add(a,b))
+    println("$a - $b = "+sub(a,b))
+    println("$a * $b = "+mult(a,b))
+    println("$a / $b = "+div(a,b))
+    println("$a % $b = "+mod(a,b))
+    println("---------------------")
+}
 
-fun main(){
-    val reader = Scanner(System.`in`)
-    print("Enter your choice : \n 1. Addition \n 2. Multiplication \n 3. Division \n 4. Substraction ")
-    var ch = reader.nextInt()
-
-    print("Num 1 : ")
-    var num1 = reader.nextInt()
-    print("Num2 : ")
-    var num2 = reader.nextInt()
-    print("Num3 : ")
-    var num3 = reader.nextInt()
-
-    if(ch==1)
-    {
-        var result = num1+num2+num3
-        print("Addition of $num1, $num2, $num3 is $result")
-    }
-    else if(ch==2)
-    {
-        var result = num1*num2*num3
-        print("Multiplication of $num1, $num2, $num3 is $result")
-    }
-    if(ch==3)
-    {
-        var result = num1/num2
-        print("Division of $num1, $num2 is $result")
-    }
-    if(ch==4)
-    {
-        var result = num1-num2-num3
-        print("Substraction of $num1, $num2, $num3 is $result")
-    }
+fun add(num1:Float,num2:Float) :Float
+{
+    return num1 + num2
+}
+fun sub(num1:Float,num2:Float) :Float
+{
+    return num1 - num2
+}
+fun mult(num1:Float,num2:Float) :Float
+{
+    return num1 * num2
+}
+fun div(num1:Float,num2:Float) :Float
+{
+    return num1 / num2
+}
+fun mod(num1:Float,num2:Float) :Float
+{
+    return num1 % num2
 }
